@@ -23,6 +23,7 @@ int main() {
     rc = syscall(SYS_chmod, "/etc/passwd", 0444);
 
     // Checking for errors in the system call
+    fork();  // fork calls the if condition twice!
     if (rc == -1)
         fprintf(stderr, "chmod failed, errno = %d\n", errno);
 
