@@ -29,7 +29,7 @@ printf("Memory address of area: %p\n", (void *)&volume);
 
 printf("\n Volume: %f\n", volume);
 
-return 0;
+return EXIT_SUCCESS;
 
 
 
