@@ -6,7 +6,8 @@
  * It takes the length of a side as input and outputs the area.
  */
 
-int main() {
+int main()
+{
     int area, side;
 
     // Prompt the user to enter the length of a side
@@ -16,8 +17,14 @@ int main() {
     // Calculate the area of the square
     area = side * side;
 
+    // Output the memory addresses of variables
+
+    printf("\nMemory address of side: %p\n", (void *)&side);
+    printf("Memory address of area: %p\n", (void *)&area);
+
     // Output the area
     printf("\nArea of square is %d\n", area);
 
     return EXIT_SUCCESS;
 }
+
