@@ -20,11 +20,10 @@ scanf("%d", &height);
 
 volume = 0.5*base*length*height;
 
-printf("\nMemory address of side: %p\n", (void *)&base);
-printf("Memory address of area: %p\n", (void *)&length);
-printf("\nMemory address of side: %p\n", (void *)&height);
-printf("Memory address of area: %p\n", (void *)&volume);
-
+printf("\nMemory address of base: %p\n", (void *)&base);
+printf("Memory address of length: %p\n", (void *)&length);
+printf("Memory address of height: %p\n", (void *)&height);
+printf("Memory address of volume: %p\n", (void *)&volume);
 
 
 printf("\n Volume: %f\n", volume);
