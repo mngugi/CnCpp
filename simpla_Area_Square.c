@@ -19,5 +19,5 @@ int main() {
     // Output the area
     printf("\nArea of square is %d\n", area);
 
-    exit(EXIT_SUCCESS);
+    return EXIT_SUCCESS;
 }
