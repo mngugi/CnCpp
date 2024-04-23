@@ -9,6 +9,8 @@ int b = 24;
 
 
 printf("%d %d\n", b-a+7, b-(a+7));
+printf("%d %d\n", b-a-4, b-(a-4));
+printf("%d %d\n", b%a/2, b%(a/2));
 
 
 }
