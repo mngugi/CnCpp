@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * prompt a number
-* eneter number
+* enter number
 **/
 
 int main() {
