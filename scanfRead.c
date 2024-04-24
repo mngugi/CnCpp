@@ -19,8 +19,9 @@ scanf("%d", &j);
 
 printf("%d + %d = %d\n", i,j, i+j);
 
-printf("\nMemory address:", (void *)&i);
-printf("\nMemory address:", (void *)&j);
+printf("\nMemory address of i: %p", (void *)&i);
+printf("\nMemory address of j: %p\n", (void *)&j);
+
 
 return EXIT_SUCCESS;
 
