@@ -1,30 +1,1 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-/*
- * This program calculates the area of a square.
- * It takes the length of a side as input and outputs the area.
- */
-
-int main()
-{
-    int area, side;
-
-    // Prompt the user to enter the length of a side
-    printf("\nEnter Length of side: ");
-    scanf("%d", &side);
-
-    // Calculate the area of the square
-    area = side * side;
-
-    // Output the memory addresses of variables
-
-    printf("\nMemory address of side: %p\n", (void *)&side);
-    printf("Memory address of area: %p\n", (void *)&area);
-
-    // Output the area
-    printf("\nArea of square is %d\n", area);
-
-    return EXIT_SUCCESS;
-}
-
+#include <stdio.h>#include <stdlib.h>/* * This program calculates the area of a square. * It takes the length of a side as input and outputs the area. */int main(){    int area, side;    // Prompt the user to enter the length of a side    printf("\nEnter Length of side: ");    scanf("%d", &side);    // Calculate the area of the square    area = side * side;    // Output the memory addresses of variables    printf("\nMemory address of side: %p\n", (void *)&side);    printf("Memory address of area: %p\n", (void *)&area);    // Output the area    printf("\nArea of square is %d\n", area);    return EXIT_SUCCESS;}
