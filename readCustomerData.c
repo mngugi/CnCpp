@@ -10,3 +10,19 @@ Average balance: $2500.00
 Interest: $150.00
 Service charge: $6.50
  **/
+#include <stdio.h>
+
+int main() {
+    char customer[30], acctNum[30];
+
+    double avrgBalance, interest, serviceChrg;
+    int transactions;
+    printf("Name?");
+    gets(customer);
+
+
+
+
+
+
+}
