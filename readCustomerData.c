@@ -19,7 +19,18 @@ int main() {
     int transactions;
     printf("Name?");
     gets(customer);
-
+    printf( "Account Number?");
+    gets(acctNum);
+    printf("Average balance? ");
+scanf("%lf", &avrgBalance);
+printf("Number of transactions? ");
+scanf("%d", &transactions);
+interest = avrgBalance* 0.06;
+serviceChrg = transactions*0.50;
+printf("\nName: %s\n", customer);
+printf("Average balance: $%3.2f\n", avrgBalance);
+printf("Interest: $%3.2f\n", interest);
+printf("Service charge: $%3.2f\n", serviceChrg);
 
 
 
