@@ -10,6 +10,12 @@ int i,j,k;
 
 double average;
 
+printf("\nMemory address of variable a: %p\n", (void *)&a);
+printf("\nMemory address of variable s: %p\n", (void *)&s);
+printf("\nMemory address of variable i: %p\n", (void *)&i);
+printf("\nMemory address of variable j: %p\n", (void *)&j);
+printf("\nMemory address of variable k: %p\n", (void *)&k);
+
 printf("Enter side length: ");
 scanf("%d", &s);
 
