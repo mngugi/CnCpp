@@ -2,34 +2,38 @@
 
 #define MAX_ROWS 5
 #define MAX_COL_NAME 20
+#define MAX_COL_DENDER 10
+#define MAX_COL_COURSE 20
 
 typedef struct {
     int id;
     char name[MAX_COL_NAME];
     int age;
+    char gender[MAX_COL_DENDER];
+    char course[MAX_COL_COURSE];
 } Person;
 
 void printTableHeader() {
-    printf("+----+--------------------+-----+\n");
-    printf("| ID | Name               | Age |\n");
-    printf("+----+--------------------+-----+\n");
+    printf("+----+--------------------+-----+------+-----------------+\n");
+    printf("| ID | Name               | Age | Gender | Course |\n");
+    printf("+----+--------------------+-----+------+-----------------+\n");
 }
 
 void printTableRow(Person person) {
-    printf("| %-2d | %-18s | %-3d |\n", person.id, person.name, person.age);
+    printf("| %-2d | %-18s | %-3d | %-10s | %-10s |\n", person.id, person.name, person.age, person.gender, person.course);
 }
 
 void printTableFooter() {
-    printf("+----+--------------------+-----+\n");
+    printf("+----+--------------------+-----+------+-------+----------+\n");
 }
 
 int main() {
     Person table[MAX_ROWS] = {
-        {1, "Alice", 23},
-        {2, "Bob", 30},
-        {3, "Charlie", 22},
-        {4, "David", 25},
-        {5, "Eve", 28}
+        {1, "Alice", 23, "Female", "Nursing"},
+        {2, "Bob", 30, "Male","Accounts"},
+        {3, "Charlie", 22,"Male","Finance"},
+        {4, "David", 25, "Male","Programmer"},
+        {5, "Eve", 28,"Male","Accounts"}
     };
 
     printTableHeader();
