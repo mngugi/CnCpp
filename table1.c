@@ -14,9 +14,9 @@ typedef struct {
 } Person;
 
 void printTableHeader() {
-    printf("+----+--------------------+-----+------+-----------------+\n");
-    printf("| ID | Name               | Age | Gender | Course |\n");
-    printf("+----+--------------------+-----+------+-----------------+\n");
+    printf("+----+--------------------+-----+------+------------------+\n");
+    printf("| ID | Name               | Age | Gender | Course         |\n");
+    printf("+----+--------------------+-----+------+------------------+\n");
 }
 
 void printTableRow(Person person) {
