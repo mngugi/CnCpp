@@ -2,14 +2,14 @@
 
 #define MAX_ROWS 5
 #define MAX_COL_NAME 20
-#define MAX_COL_DENDER 10
+#define MAX_COL_GENDER 10
 #define MAX_COL_COURSE 20
 
 typedef struct {
     int id;
     char name[MAX_COL_NAME];
     int age;
-    char gender[MAX_COL_DENDER];
+    char gender[MAX_COL_GENDER];
     char course[MAX_COL_COURSE];
 } Person;
 
