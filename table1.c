@@ -7,9 +7,9 @@
 
 typedef struct {
     int id;
-    char name[MAX_COL_NAME];
+    char first_name[MAX_COL_NAME];
     int age;
-    char gender[MAX_COL_GENDER];
+    char getnder[MAX_COL_GENDER];
     char course[MAX_COL_COURSE];
 } Person;
 
@@ -20,7 +20,7 @@ void printTableHeader() {
 }
 
 void printTableRow(Person person) {
-    printf("| %-2d | %-18s | %-3d | %-10s | %-10s |\n", person.id, person.name, person.age, person.gender, person.course);
+    printf("| %-2d | %-18s | %-3d | %-10s | %-10s |\n", person.id, person.first_name, person.age, person.gender, person.course);
 }
 
 void printTableFooter() {
