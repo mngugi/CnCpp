@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_ROWS 5
+#define MAX_ROWS 10
 #define MAX_COL_NAME 20
 #define MAX_COL_GENDER 10
 #define MAX_COL_COURSE 20
@@ -9,7 +9,7 @@ typedef struct {
     int id;
     char first_name[MAX_COL_NAME];
     int age;
-    char getnder[MAX_COL_GENDER];
+    char gender[MAX_COL_GENDER];
     char course[MAX_COL_COURSE];
 } Person;
 
@@ -33,7 +33,12 @@ int main() {
         {2, "Bob", 30, "Male","Accounts"},
         {3, "Charlie", 22,"Male","Finance"},
         {4, "David", 25, "Male","Programmer"},
-        {5, "Eve", 28,"Male","Accounts"}
+        {5, "Eve", 28,"Female","Accounts"},
+        {6, "Alexa", 23, "Female", "Nursing"},
+        {7, "Bobic", 30, "Male","Accounts"},
+        {8, "Cham", 22,"Male","Finance"},
+        {9, "Davido", 25, "Male","Programmer"},
+        {10,"Everlyne", 28,"Female","Accounts"}
     };
 
     printTableHeader();
