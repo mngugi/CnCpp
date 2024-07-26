@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_ROWS 12
+#define MAX_ROWS 13
 #define MAX_COL_NAME 20
 #define MAX_COL_GENDER 10
 #define MAX_COL_COURSE 20
@@ -40,7 +40,9 @@ int main() {
         {9, "Davido", 25, "Male","Programmer"},
         {10,"Mary", 21,"Female","Accounts"},
         {11,"Kristine", 19,"Female","Accounts"},
-        {12,"Everlyne", 28,"Female","Accounts"}
+        {12,"Everlyne", 28,"Female","Accounts"},
+        {13,"Evans", 48,"Male","Accounts"},
+
     };
 
     printTableHeader();
