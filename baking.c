@@ -28,8 +28,8 @@ int main() {
 
     printf("\nAmount of butter left: %f", Amt_butterLeft);
     // print memory locations
-    printf("\n Memory Address location for Amount of butter left: %p \n", (void *) &Amt_butterLeft);
-    printf("\n Memory Address location for Amount of butter used: %p \n", (void *) &Amt_butterUsed);
+    printf("\n Memory Address location for Amount of butter left: %p \n",   (void *) &Amt_butterLeft);
+    printf("\n Memory Address location for Amount of butter used: %p \n",   (void *) &Amt_butterUsed);
     printf("\n Memory Address location for Amount of butter in tub: %p \n", (void *) &Amt_butterIntub);
 
 
