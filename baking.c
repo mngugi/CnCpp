@@ -8,7 +8,8 @@ Analyze
 - 2(2/3) of butter are used for a cake.
 - How much butter is left in the tub?
 
-Write code that calculates the amount of butter left
+1. Write code that calculates the amount of butter left
+2. Enter variable numbers.
 
 Hint: 10 - 2(2/3)
 
