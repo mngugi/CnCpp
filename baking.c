@@ -14,3 +14,19 @@ Hint: 10 - 2(2/3)
 
 ******/
 
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+double Amt_butterLeft, Amt_butterIntub, Amt_butterUsed ;
+
+Amt_butterIntub = 10;
+Amt_butterUsed = 2(2/3);
+Amt_butterLeft= Amt_butterIntub - Amt_butterUsed
+
+printf("\n Amount of butter used %f", Amt_butterleft);
+
+
+}
