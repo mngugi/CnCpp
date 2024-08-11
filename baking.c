@@ -20,13 +20,14 @@ Hint: 10 - 2(2/3)
 
 int main() {
 
-double Amt_butterLeft, Amt_butterIntub, Amt_butterUsed ;
+    double Amt_butterLeft, Amt_butterIntub, Amt_butterUsed;
 
-Amt_butterIntub = 10;
-Amt_butterUsed = 2 * (2/3);
-Amt_butterLeft = (Amt_butterIntub - Amt_butterUsed);
+    Amt_butterIntub = 10;
+    Amt_butterUsed = 2 * (2.0/3.0);  // Ensure floating-point division
+    Amt_butterLeft = (Amt_butterIntub - Amt_butterUsed);
 
-printf("\n Amount of butter used %f", Amt_butterLeft);
+    printf("\nAmount of butter left: %f", Amt_butterLeft);
 
+    return 0;
 
 }
