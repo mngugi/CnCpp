@@ -30,9 +30,9 @@ int main() {
     scanf("%lf", &Amt_butterUsed);
 
 
-    Amt_butterLeft = (Amt_butterIntub - Amt_butterUsed);
+    Amt_butterLeft = Amt_butterIntub - Amt_butterUsed;
 
-    printf("\nAmount of butter left: %f", Amt_butterLeft);
+    printf("\nAmount of butter left: %lf", Amt_butterLeft);
     // print memory locations
     printf("\n Memory Address location for Amount of butter left: %p \n",   (void *) &Amt_butterLeft);
     printf("\n Memory Address location for Amount of butter used: %p \n",   (void *) &Amt_butterUsed);
