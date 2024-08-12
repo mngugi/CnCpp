@@ -1,3 +1,4 @@
+
  /*****
 Baking :
 How much butter is left in a 10-pound tub if 2(2/3)
@@ -23,8 +24,15 @@ int main() {
 
     double Amt_butterLeft, Amt_butterIntub, Amt_butterUsed;
 
-    Amt_butterIntub = 10;
-    Amt_butterUsed = 2 * (2.0/3.0);  // Ensure floating-point division
+    printf("\n Amount of butter in the tub: ");
+    scanf("%d", &Amt_butterIntub);
+
+    printf("\n Amount of butter used: ");
+    scanf("%d", &Amt_butterUsed);
+
+    //Amt_butterIntub = 10;
+    //Amt_butterUsed = 2 * (2.0/3.0);  // Ensure floating-point division
+
     Amt_butterLeft = (Amt_butterIntub - Amt_butterUsed);
 
     printf("\nAmount of butter left: %f", Amt_butterLeft);
