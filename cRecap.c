@@ -3,19 +3,8 @@
 int main() {
     // create an int
     int num = 12;
+    printf("%d", num);
 
-    printf("%d", num,"\n");
-    printf(\n);
-    float number = 63.21;
-    printf("f", number);
-    // create a char variable
-    char alphabet = 's';
+    // cr
 
-    // to print char variable, we use %c
-    printf("%c", alphabet);
-
-
-    // create a float type variable
-
-    return 0;
 }
