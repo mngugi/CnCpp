@@ -9,5 +9,5 @@ int main() {
 
     // create a float type variable
 
-
+    return 0;
 }
