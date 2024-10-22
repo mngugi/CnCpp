@@ -4,7 +4,7 @@ int main() {
     // create an int
     int num = 12;
     float number = 63.21;
-    printf("%d", num\n);
+    printf("%d", num,"\n");
     printf(\n);
     printf("f", number);
 
