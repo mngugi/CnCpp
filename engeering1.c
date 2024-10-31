@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int result;
-    int a = 74, b = 98 ;
+    int a = 5, b = 3;
 
+    // Corrected inline assembly syntax
+    asm ("addl %%ebx, %%eax"      // Assembly instruction: add b to a
+         : "=a" (result)          // Output: result in EAX
+         : "a" (a), "b" (b)       // Inputs: a in EAX, b in EBX
+    );
 
-    asm ("addl %%ebx, %%eax"
-        : "=a" (result)
-        : "a" (a), "b", result);
-
-    printf("Result is : %d\n", result);
+    printf("The result is: %d\n", result);
     return 0;
-
 }
+
