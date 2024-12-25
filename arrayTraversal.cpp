@@ -3,7 +3,7 @@
 int main() {
     int arr[] = {1,2,3,4,5};
 
-    for (int i = 0; i < sizeof(arr)/ (arr[0]); i++ ) {
+    for (int i = 0; i < sizeof(arr) / (arr[0]); i++ ) {
     std::cout << arr[i] << std::endl;
 
     }
