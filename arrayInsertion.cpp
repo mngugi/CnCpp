@@ -4,6 +4,7 @@ int main() {
     int arr[] = {1, 2, 3, 4, 5};
     int insertVal = 20;
     int insertIndex = 3;
+    
 
     // Print the original array
     std::cout << "Original array:\n";
