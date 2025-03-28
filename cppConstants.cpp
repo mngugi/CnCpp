@@ -3,6 +3,7 @@
  *  cannot be changed anywhere in the program, either intentionally or accidentally.
  */
 #include <iostream>
+using namespace std;
 
 int main(){
 
@@ -13,7 +14,7 @@ int main(){
     // create a read-only reference to PI
     const double &PI_REF = PI;
 
-    cout << "PI" << PI;
+    cout << "PI: " << PI;
     cout << "\nPI_REF: " << PI_REF;
 
 
