@@ -12,8 +12,10 @@ int main(){
     const double PI = 3.141;
 
     // create a read-only reference to PI
+    // create a constant reference.
     const double &PI_REF = PI;
 
+   
     cout << "PI: " << PI;
     cout << "\nPI_REF: " << PI_REF;
 
