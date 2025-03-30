@@ -13,8 +13,13 @@ int main()
 
      *allow us to change the address the pointer is pointing to,
      *don't allow us to change the value stored in those constant variables.
-     */
-    
+     */ 
+     const int *MONTHS_PTR = &NUMBER_MONTHS ; 
+
+     
+
+
+
 
 
 
