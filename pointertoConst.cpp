@@ -16,7 +16,24 @@ int main()
      */ 
      const int *MONTHS_PTR = &NUMBER_MONTHS ; 
 
+     // creat  a second pointer to Const, i.e HALF_YEAR
+
+     const int HALF_YEAR = 6;
      
+     // now create *MONTH_PTR pointer to Const &HALF_YEAR
+
+     const int *MONTHS_PTR =  &HALF_YEAR ; 
+
+     cout << endl;
+
+     cout << "Total months" << NUMBER_MONTHS << endl;
+     cout << "Halfy an year: " << HALF_YEAR << endl;
+
+
+
+
+
+
 
 
 
