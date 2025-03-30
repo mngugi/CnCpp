@@ -29,17 +29,7 @@ int main()
      cout << "Total months" << NUMBER_MONTHS << endl;
      cout << "Halfy an year: " << HALF_YEAR << endl;
 
-
-
-
-
-
-
-
-
-
-
-
+     return 0;
 
 
 }
