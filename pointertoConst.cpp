@@ -10,7 +10,6 @@ int main()
     // MONTHS_PTR is a pointer to int const
     /**
      * A pointer to a const is a pointer variable that points to a constant variable. These pointers
-
      *allow us to change the address the pointer is pointing to,
      *don't allow us to change the value stored in those constant variables.
      */ 
