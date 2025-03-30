@@ -21,12 +21,15 @@ int main()
      const int HALF_YEAR = 6;
      
      // now create *MONTH_PTR pointer to Const &HALF_YEAR
+     /**
+      * change the address pointed by MONTHS_PTR to point to some other variable without any error.
+      */
 
-     const int *MONTHS_PTR =  &HALF_YEAR ; 
+     MONTHS_PTR =  &HALF_YEAR; 
 
      cout << endl;
 
-     cout << "Total months" << NUMBER_MONTHS << endl;
+     cout << "Total months: " << NUMBER_MONTHS << endl;
      cout << "Halfy an year: " << HALF_YEAR << endl;
 
      return 0;
