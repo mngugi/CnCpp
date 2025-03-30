@@ -31,6 +31,8 @@ int main()
 
      cout << "Total months: " << NUMBER_MONTHS << endl;
      cout << "Halfy an year: " << HALF_YEAR << endl;
+     cout << "MONTHS_PTR is pointing to: " << *MONTHS_PTR << endl;
+
 
      return 0;
 
