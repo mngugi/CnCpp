@@ -22,7 +22,7 @@ int main()
 
     *PTR1 = fruit2 ; 
 
-    cout << "finally , fruit1: \n" << fruit1;
+    cout << "finally , fruit1: " << fruit1;
 
 
     return 0;
