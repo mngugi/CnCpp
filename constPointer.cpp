@@ -9,7 +9,7 @@ int main()
 
 {
 
-    string fruit1 = "Applr" ;
+    string fruit1 = "Apple" ;
     string fruit2 = "Orange" ;
 
     cout << "Initially, fruit1: " << fruit1 << endl;
@@ -22,7 +22,7 @@ int main()
 
     *PTR1 = fruit2 ; 
 
-    cout << "finally , fruit1: " << fruit1;
+    cout << "finally , fruit1: \n" << fruit1;
 
 
     return 0;
