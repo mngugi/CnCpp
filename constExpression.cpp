@@ -25,7 +25,7 @@ int main() {
     constexpr int fibonacci_ten = fib(10);
 
     cout << "fib(5) : "<< fibonacci_five << endl;
-    cout << "fib(10) : "<< fibonacci_ten;
+    cout << "fib(10) : "<< fibonacci_ten << endl; 
 
     return 0;
 }
