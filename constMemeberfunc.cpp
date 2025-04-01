@@ -21,7 +21,7 @@ public:
         return 2 * (length + breadth);
     }
 
-    // non-const member function
+    // non-const member function // error //RECT.get_perimeter();
     // adding a const at get_perimeter() to change it to const member 
 };
 
