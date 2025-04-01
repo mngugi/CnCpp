@@ -18,7 +18,7 @@ public:
         return length * breadth;
     }
 
-    int get_perimeter() {
+    int get_perimeter() const {
         return 2 * (length + breadth);
     }
 
@@ -33,6 +33,6 @@ int main() {
 
     // call the const member function
     cout << "Area: " << RECT.get_area() << endl;
-    cout << "Perimeter: " << RECT_PERIM.get_perimeter() << endl;
+    //cout << "Perimeter: " << RECT_PERIM.get_perimeter() << endl;
 }
     
