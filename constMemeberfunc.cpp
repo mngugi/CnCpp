@@ -18,6 +18,10 @@ public:
         return length * breadth;
     }
 
+    int get_perimeter() {
+        return 2 (length + breadth);
+    }
+
     // non-const member function
 };
 
