@@ -29,9 +29,10 @@ int main() {
 
     // create a const Rectangle object
     const Rectangle RECT = Rectangle(7, 2);
+    const Rectangle RECT_PERIM = Rectangle(7, 2);
 
     // call the const member function
     cout << "Area: " << RECT.get_area() << endl;
-    //cout << "Perimeter: " << RECT.get_perimeter() << endl;
+    cout << "Perimeter: " << RECT_PERIM.get_perimeter() << endl;
 }
     
