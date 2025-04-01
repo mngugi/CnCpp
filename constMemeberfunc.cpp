@@ -11,6 +11,14 @@ public:
 
 
     }
+
+    // const member function
+
+    int get_area() const {
+        return length * breadth;
+    }
+
+    // non-const member function
 };
 
 
