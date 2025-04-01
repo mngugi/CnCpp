@@ -9,7 +9,6 @@ public:
         this->breadth = breadth;
         this->length = length;
 
-
     }
 
     // const member function
