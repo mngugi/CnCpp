@@ -19,11 +19,19 @@ public:
     }
 
     int get_perimeter() {
-        return 2 (length + breadth);
+        return 2 * (length + breadth);
     }
 
     // non-const member function
 };
 
+int main() {
 
+    // create a const Rectangle object
+    const Rectangle RECT = Rectangle(7, 2);
+
+    // call the const member function
+    cout << "Area: " << RECT.get_area() << endl;
+    //cout << "Perimeter: " << RECT.get_perimeter() << endl;
+}
     
