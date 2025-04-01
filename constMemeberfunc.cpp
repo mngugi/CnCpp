@@ -23,6 +23,7 @@ public:
     }
 
     // non-const member function
+    // adding a const at get_perimeter() 
 };
 
 int main() {
