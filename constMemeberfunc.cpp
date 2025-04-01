@@ -33,6 +33,6 @@ int main() {
 
     // call the const member function
     cout << "Area: " << RECT.get_area() << endl;
-    //cout << "Perimeter: " << RECT_PERIM.get_perimeter() << endl;
+    cout << "Perimeter: " << RECT_PERIM.get_perimeter() << endl;
 }
     
