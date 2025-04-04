@@ -7,5 +7,7 @@ int main(){
     cin >> Exam_marks ; 
 
     
+
+
 }
 
