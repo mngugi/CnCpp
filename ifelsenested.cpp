@@ -2,9 +2,9 @@
 using namespace std;
 
 /**
- * @brief Determines the grade category based on exam marks.
+ * Determines the grade category based on exam marks.
  * 
- * @param marks The exam score entered by the user.
+ * marks The exam score entered by the user.
  */
 void determineGrade(int marks) {
     if (marks >= 85 && marks <= 100) {
