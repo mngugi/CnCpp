@@ -24,7 +24,11 @@ public:
      * 
      * The area of the circle as a double.
      */
-
+   /**
+    *  Main function to demonstrate the Circle class.
+    * 
+    *  int Exit code.
+ */
 int get_area() const {
     return PI * radius * radius ;
 }    
