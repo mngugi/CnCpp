@@ -7,7 +7,7 @@ using namespace std;
 class Circle
 {
 private:
-    /* data */
+    
     /*Constant value of PI used in area calculation.*/
     const double PI = 3.141592653589793;
     int radius; /*radius of a circle*/
@@ -24,11 +24,13 @@ public:
      * 
      * The area of the circle as a double.
      */
-   /**
-    *  Main function to demonstrate the Circle class.
-    * 
-    *  int Exit code.
- */
+
+    /**
+     *  Main function to demonstrate the Circle class.
+     * 
+     *  int Exit code.
+   */
+
 int get_area() const {
     return PI * radius * radius ;
 }    
