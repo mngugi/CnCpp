@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 class Circle
 {
 private:
@@ -10,20 +9,19 @@ private:
     int radius; 
 
 public:
-    Circle(int radius, double PI){
+    Circle(int radius){
         this->radius=radius ;
 
     }
 
 int get_area() const {
-    return PI * radius^2 ;
+    return PI * radius * radius ;
 }    
-
 
 };
 
 int main(){
-    const Circle RECT = radius(7);
-    cout << "Area of a Circle is : " << RECT.get_area() << endl;
+    Circle circle(7);
+    cout << "Area of a Circle is : " << circle.get_area() << endl;
 
 }
