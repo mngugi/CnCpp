@@ -2,22 +2,17 @@
 using namespace std;
 
 
-class area_circle
+class Circle
 {
 private:
     /* data */
     const double PI = 3.141592653589793;
     int radius; 
+
 public:
-    area_circle(/* args */);
-    ~area_circle();
+    Circle(int radius, double PI){
+
+    }
+
+
 };
-
-area_circle::area_circle(/* args */)
-{
-}
-
-area_circle::~area_circle()
-{
-}
-
