@@ -14,5 +14,10 @@ public:
 
     }
 
+int get_area() const {
+    return PI * radius^2 ;
+}    
+
 
 };
+
