@@ -11,6 +11,7 @@ private:
 
 public:
     Circle(int radius, double PI){
+        this->radius=radius ;
 
     }
 
@@ -21,3 +22,8 @@ int get_area() const {
 
 };
 
+int main(){
+    const Circle RECT = radius(7);
+    cout << "Area of a Circle is : " << RECT.get_area() << endl;
+
+}
