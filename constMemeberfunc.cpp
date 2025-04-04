@@ -37,9 +37,9 @@ int main() {
 }
     
 /**
- * above example, we have created a class Rectangle with the following member functions:
-  *get_area() - a constant member function
-  *get_perimeter()- a normal member function
+ *  above example, we have created a class Rectangle with the following member functions:
+  * get_area() - a constant member function
+  * get_perimeter()- a normal member function
   * created a constant object named RECT:
   * create a const Rectangle object
   * const Rectangle RECT = Rectangle(7, 6);
