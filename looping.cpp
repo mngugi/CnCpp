@@ -17,10 +17,10 @@ int main(){
     cout << "Enter a number: ";
     cin >> number;
 
-    for(int j = 0 ; j <=10; ++j)
+    for(int j = 0 ; j <=10; ++j){
        sum += 1 ; 
-    //cout << j << " " << endl ;
-
+       cout << "Sum is: "<< sum << endl ;
+}
     return 0;
 
 
