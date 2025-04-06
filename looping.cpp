@@ -10,11 +10,23 @@
 
 using namespace std;
 
+
+
 int main(){
+    int number, sum ; 
+    cout << "Enter a number: ";
+    cin >> number;
+
     for(int j = 0 ; j <=10; ++j)
-    cout << j << " " << endl ;
+       sum += 1 ; 
+    //cout << j << " " << endl ;
 
     return 0;
 
 
 }
+
+/**
+ * Add two variables num and sum. The sum variable is assigned with 0 
+ * and the num variable is assigned with the value provided by the user.
+ */
