@@ -8,7 +8,8 @@ using namespace std;
 
 int main(){
 
-   string fruits_array[] = {"Apple","Avocado","Banana","Blackberry","Blueberry","Dragon Fruit","Orange","Popo","Pineapple","Strawberry"};
+   string fruits_array[] = {"Apple","Avocado","Banana","Blackberry","Blueberry",
+    "Dragon Fruit","Orange","Popo","Pineapple","Strawberry"};
     for (string i : fruits_array) {
         cout << i << " " << endl;
         
