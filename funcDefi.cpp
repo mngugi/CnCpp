@@ -33,12 +33,8 @@
     cout << "Get it!" << endl;
     cout << "Catch us later" << endl;
 
-   
-
-    
+      
   }
-
-
 
 /* explicitly call the function echoSomrthing()*/
   int main() {
