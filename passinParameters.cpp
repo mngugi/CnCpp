@@ -42,19 +42,18 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
     {
         cout << e.what() << '\n';
     }
-    
+}    
 //  lets add an array function that prints elements in the array[].
 
 void namesArray(string array[], int size){
     for (int i = 0 ; i < size ; i++ ){
         cout << array[i] << endl;
 
-
   }
 
 }
 
-int main() {
+int main(){
 
     AddSub(74,98,45);
     AddSubDivide(74,45,98,0);
