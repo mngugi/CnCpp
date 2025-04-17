@@ -22,7 +22,7 @@
 
     
   }
-/* explicitly call the function*/
+/* explicitly call the function echoSomrthing()*/
   int main() {
 
     echoSomething();
