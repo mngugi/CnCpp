@@ -38,7 +38,7 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
             cout << integerI + integerJ - integerK / integer_M << endl; 
         }
     }
-    catch( runtime_error)
+    catch(const runtime_error& e )
     {
         cout << e.what() << '\n';
     }
