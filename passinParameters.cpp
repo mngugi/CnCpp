@@ -43,6 +43,12 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
         cout << e.what() << '\n';
     }
     
+//  lets add an array function that prints elements in the array[].
+
+void namesArray(string array[], int size){
+    for (int i = 0 ; i < array[] ; i++ )
+
+}
 
 }
 
