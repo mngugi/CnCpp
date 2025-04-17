@@ -4,6 +4,7 @@
  * 
  * 
  */
+
 /**
   * Global scope  - Referencing
   * Global scope variable is when a variable 
@@ -17,8 +18,7 @@
    * program, you can declare the variable as const. const variables are also
    * referred to as constants.
    * 
-   * 
-   */
+*/
 
  #include <iostream>
  using namespace std;
