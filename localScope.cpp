@@ -11,16 +11,26 @@
   * 
   */
 
+  /***
+   * Introducing const
+   * If you want a global variable to remain unchanged throughout the
+   * program, you can declare the variable as const. const variables are also
+   * referred to as constants.
+   * 
+   * 
+   */
+
  #include <iostream>
  using namespace std;
 
- 
-string fruits = "Healthy Foods";
+const string IamCONSTANT = "I never change!" 
+
+string fruits = "Healthy Foods"; // global scope variable
 
 void foods(){
     cout << fruits << endl;
   }
-
+// local scope variable
  void func1(){
     string your_name = "Bruno Fernandez";
     cout << your_name << endl;
@@ -32,11 +42,16 @@ void foods(){
     cout << your_name << endl;
  }
 
+ void call_Constant(){
+    IamCONSTANT = "i WILL NEVER CHANGE";
+ }
  int main(){
     func1();
     func2();
     cout << "---------------" << endl;
     foods();
+    cout << "---------------" << endl;
+    call_Constant()
 
     return 0;
  }
