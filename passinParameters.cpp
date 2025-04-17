@@ -16,13 +16,13 @@ using namespace std;
  * 
  **/
 
-void Add( double integerJ, double integerI, double integerK) {
+void AddSub( double integerJ, double integerI, double integerK) {
     cout << integerI + integerJ - integerK<< endl ; 
 
 }
 
 int main() {
 
-    Add(74,98,45);
+    AddSub(74,98,45);
     return 0;
 }
