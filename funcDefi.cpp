@@ -32,3 +32,7 @@
 
     return 0; // doesn't cause any change in the program. returns the value if any.
   }
+/**
+ * function deﬁnitions are read line by line from top to
+ * bottom, functions are also read the same way.
+ */
