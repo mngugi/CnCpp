@@ -23,7 +23,7 @@
  #include <iostream>
  using namespace std;
 
-const string IamCONSTANT = "I never change!" 
+const string IamCONSTANT = "I never change!" ;
 
 string fruits = "Healthy Foods"; // global scope variable
 
@@ -43,8 +43,10 @@ void foods(){
  }
 
  void call_Constant(){
-    IamCONSTANT = "i WILL NEVER CHANGE";
+    
+    cout << IamCONSTANT << endl;
  }
+
  int main(){
     func1();
     func2();
