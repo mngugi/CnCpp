@@ -22,8 +22,10 @@
 
     
   }
-
+/* explicitly call the function*/
   int main() {
+
+    echoSomething();
 
     return 0;
   }
