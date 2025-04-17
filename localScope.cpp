@@ -15,7 +15,7 @@
  using namespace std;
 
  
-string fruits = "Healthy Foods"
+string fruits = "Healthy Foods";
 
 void foods(){
     cout << fruits << endl;
