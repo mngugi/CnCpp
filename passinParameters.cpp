@@ -49,7 +49,7 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
 int main() {
 
     AddSub(74,98,45);
-    AddSubDivide(74,45,98,6);
+    AddSubDivide(74,45,98,0);
 
     return 0;
 }
