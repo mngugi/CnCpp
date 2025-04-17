@@ -17,7 +17,8 @@ using namespace std;
  **/
 
 void AddSub( double integerJ, double integerI, double integerK) {
-    cout << integerI + integerJ - integerK<< endl ; 
+    cout << "Add Subtraction Answer is: " << integerI + integerJ - integerK << endl ; 
+    // add two variables and subtract the third one.
 
 }
 
