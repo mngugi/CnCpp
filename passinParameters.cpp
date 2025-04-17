@@ -32,7 +32,7 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
         /* code */
         if (integer_M == 0){
 
-            throw runtime_error("cannot Divide by Zero");
+            throw runtime_error("Cannot Divide by Zero!!");
         }
         else {
             cout << "Add Subtract Divide: " << (integerI + integerJ - integerK )/ integer_M << endl; 
