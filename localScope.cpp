@@ -3,8 +3,6 @@
  * func1() and func2 are local scope variables.
  * 
  * 
- * 
- * 
  */
 
  #include <iostream>
@@ -21,6 +19,13 @@
     string your_name = "Marcus Rashford";
     cout << your_name << endl;
  }
+
+ /**
+  * Global scope  - Referencing
+  * Global scope variable is when a variable 
+  * is declared out side all existing functions.
+  * 
+  */
 
  int main(){
     func1();
