@@ -14,6 +14,7 @@
  }
 
  void func2(){
+    string your_name = "Marcus Rashford";
     cout << your_name << endl;
  }
 
