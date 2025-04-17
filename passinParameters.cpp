@@ -38,7 +38,8 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
             cout << "Add Subtract Divide: " << (integerI + integerJ - integerK )/ integer_m << endl; 
         }
     }
-    catch(const runtime_error& e ) /** catch(runtime_error) → catch (const runtime_error& e) to access the exception object and call e.what(). */
+    catch(const runtime_error& e ) 
+    /** catch(runtime_error) → catch (const runtime_error& e) to access the exception object and call e.what(). */
     {
         cout << e.what() << '\n';
     }
