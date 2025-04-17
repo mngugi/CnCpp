@@ -19,12 +19,15 @@
 
     cout << "Global Warming!" << endl;
     cout << "Global Warming!" << endl;
+    cout << "Get it!" << endl;
+    cout << "Catch us later" << endl;
 
     
   }
 /* explicitly call the function echoSomrthing()*/
   int main() {
 
+    echoSomething();
     echoSomething();
 
     return 0; // doesn't cause any change in the program.
