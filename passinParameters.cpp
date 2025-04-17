@@ -19,6 +19,10 @@ using namespace std;
 void add( int integerJ, int integerI, int integerK) {
     cout << integerI + integerJ << endl ; 
 
+}
 
+int main() {
 
+    add(74,98);
+    return 0;
 }
