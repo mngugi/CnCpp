@@ -44,7 +44,6 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
     }
     
 
-
 }
 
 int main() {
