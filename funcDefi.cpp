@@ -24,11 +24,22 @@
 
     
   }
+
+  void echoSomething_2() {
+
+    cout << "Global Warming!" << endl;
+    cout << "Global Warming!" << endl;
+    cout << "Get it!" << endl;
+    cout << "Catch us later" << endl;
+
+    
+  }
+
 /* explicitly call the function echoSomrthing()*/
   int main() {
 
     echoSomething();
-    echoSomething();
+    echoSomething_2();
 
     return 0; // doesn't cause any change in the program. returns the value if any.
   }
