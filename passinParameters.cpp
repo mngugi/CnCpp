@@ -35,7 +35,7 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
             throw runtime_error("cannot Divide by Zero");
         }
         else {
-            cout << integerI + integerJ - integerK / integer_M << endl; 
+            cout << (integerI + integerJ - integerK )/ integer_M << endl; 
         }
     }
     catch(const runtime_error& e ) // defines the e. 
