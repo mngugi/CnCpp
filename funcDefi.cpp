@@ -20,6 +20,10 @@
     cout << "Global Warming!" << endl;
     cout << "Global Warming!" << endl;
 
+    
+  }
 
+  int main() {
 
+    return 0;
   }
