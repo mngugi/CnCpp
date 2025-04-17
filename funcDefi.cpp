@@ -30,5 +30,5 @@
     echoSomething();
     echoSomething();
 
-    return 0; // doesn't cause any change in the program.
+    return 0; // doesn't cause any change in the program. returns the value if any.
   }
