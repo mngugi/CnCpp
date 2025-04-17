@@ -27,9 +27,16 @@
   * 
   */
 
+  string fruits = "Healthy Foods"
+
+  void foods(){
+    cout << fruits << endl;
+  }
+
  int main(){
     func1();
     func2();
+    foods();
 
     return 0;
  }
