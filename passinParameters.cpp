@@ -57,7 +57,8 @@ int main(){
 
     AddSub(74,98,45);
     AddSubDivide(74,45,98,0);
-    cout << "----------------" << endl;
+
+    cout << "----------------\n" << endl;
 
     string names[] = {"Peter", "Beth", "Sam"};
     int len = sizeof(names) / sizeof(names[0]);
