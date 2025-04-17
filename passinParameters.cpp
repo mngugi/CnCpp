@@ -46,11 +46,11 @@ void AddSubDivide(double integerJ, double integerI, double integerK, int integer
 //  lets add an array function that prints elements in the array[].
 
 void namesArray(string array[], int size){
-    for (int i = 0 ; i < array[] ; i++ ){
+    for (int i = 0 ; i < size ; i++ ){
         cout << array[i] << endl;
 
 
-}
+  }
 
 }
 
@@ -58,12 +58,12 @@ int main() {
 
     AddSub(74,98,45);
     AddSubDivide(74,45,98,0);
-    printf("----------------");
+    cout << "----------------" << endl;
 
-    String names[] = {"Peter", "Beth", "Sam"};
+    string names[] = {"Peter", "Beth", "Sam"};
     int len = sizeof(names) / sizeof(names[0]);
-    PrintArray(names, len)
-    
+    namesArray(names, len) ;
+
 
     return 0;
 }
