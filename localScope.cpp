@@ -2,7 +2,6 @@
  * local scope are declared inside the function. 
  * func1() and func2 are local scope variables.
  * 
- * 
  */
 
 /**
