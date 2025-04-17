@@ -62,7 +62,7 @@ int main(){
 
     string names[] = {"Peter", "Beth", "Sam"};
     int len = sizeof(names) / sizeof(names[0]);
-    namesArray(names, len) ;
+    namesArray(names, len);
 
 
     return 0;
