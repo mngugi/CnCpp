@@ -24,18 +24,18 @@ void AddSub( double integerJ, double integerI, double integerK) {
 
 }
 
-void AddSubDivide(double integerJ, double integerI, double integerK, int integer_M){
+void AddSubDivide(double integerJ, double integerI, double integerK, int integer_m){
 
     // use a try and catch exception to handle a division by 0.
     try
     {
         /* code */
-        if (integer_M == 0){
+        if (integer_m == 0){
 
             throw runtime_error("Cannot Divide by Zero!!");
         }
         else {
-            cout << "Add Subtract Divide: " << (integerI + integerJ - integerK )/ integer_M << endl; 
+            cout << "Add Subtract Divide: " << (integerI + integerJ - integerK )/ integer_m << endl; 
         }
     }
     catch(const runtime_error& e ) /** catch(runtime_error) → catch (const runtime_error& e) to access the exception object and call e.what(). */
