@@ -17,13 +17,40 @@ using namespace std;
  **/
 
 void AddSub( double integerJ, double integerI, double integerK) {
+    
+
     cout << "Add Subtraction Answer is: " << integerI + integerJ - integerK << endl ; 
     // add two variables and subtract the third one.
+
+}
+
+void AddSubDivide(double integerJ, double integerI, double integerK, int integer_M){
+
+    // use a try and catch exception to handle a division by 0.
+    try
+    {
+        /* code */
+        if (integer_M == 0){
+
+            throw runtime_error("cannot Divide by Zero");
+        }
+        else {
+            cout << integerI + integerJ - integerK / integer_M << endl; 
+        }
+    }
+    catch( runtime_error)
+    {
+        cout << e.what() << '\n';
+    }
+    
+
 
 }
 
 int main() {
 
     AddSub(74,98,45);
+    AddSubDivide(74,45,98,6);
+
     return 0;
 }
