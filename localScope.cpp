@@ -1,4 +1,7 @@
 /**
+ * local scope are declared inside the function. 
+ * func1() and func2 are local scope variables.
+ * 
  * 
  * 
  * 
@@ -6,6 +9,7 @@
 
  #include <iostream>
  using namespace std;
+
 
  void func1(){
     string your_name = "Bruno Fernandez";
