@@ -35,7 +35,7 @@ void foods(){
  int main(){
     func1();
     func2();
-    cout << '---------------' << endl;
+    cout << "---------------" << endl;
     foods();
 
     return 0;
