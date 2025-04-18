@@ -9,8 +9,9 @@
 
 #include <iostream>
 using namespace std;
-
-void  GetSlop( double x1, double x2, double y1, double y2) {
+// function header GetSlope
+// 
+void  GetSlope( double x1, double x2, double y1, double y2) {
     doubleSlope = (y2 - y1) / (x2 - x1) ;
     cout << "the Slope is " << endl;
 
