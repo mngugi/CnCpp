@@ -11,7 +11,7 @@
 using namespace std;
 // function header GetSlope
 // 
-void  GetSlope( double x1, double x2, double y1, double y2) {
+void  GetSlope( double x1, double y1, double x2, double y2) {
     cout << (y2 - y1) / (x2 - x1) ;
     
 
@@ -34,7 +34,7 @@ int main() {
     cin >> y2; 
 
     // call the function to call get the slope.
-    cout << "the Slope is " << GetSlope << endl; // print the slope.
+    cout << "the Slope is " << endl; // print the slope.
 
     GetSlope(x1,x2,y1,y2);
     
