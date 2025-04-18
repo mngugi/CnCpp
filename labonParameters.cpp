@@ -19,6 +19,8 @@ void  GetSlope( double x1, double x2, double y1, double y2) {
 }
 
 int main() {
+    // declare the variables
+    double x1, x2, y1, y2 ;
 
     cout << "Enter the first x1 coordinate:" << endl;
     cin >> x1; 
