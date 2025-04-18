@@ -34,7 +34,7 @@ int main() {
     cin >> y2; 
 
     // call the function to call get the slope.
-    cout << "the Slope is " << endl; // print the slope.
+    cout << "the Slope is \n " << endl; // print the slope.
 
     GetSlope(x1,x2,y1,y2);
     
