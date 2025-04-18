@@ -7,31 +7,30 @@
  * 
  */
 
- #include <iostream>
- #include <string>
- using namespace std;
+ /**
+ * Functions to return ints, doubles, and strings.
+ */
 
- int ReturnSum( int i, int j){
+#include <iostream>
+#include <string>  // for std::string
+using namespace std;
+
+int returnSum(int i, int j) {
     return i + j;
+}
 
- }
+double returnDouble(double i, double j) {
+    return i + j;  // Return type changed to double
+}
 
- int ReturnDouble(double i , double j){
-    return i + j;
-
- }
-
- int Returnstring(string i, string j){
-    return i + j;
-
- }
-
+string returnString(string i, string j) {
+    return i + j;  // Return type changed to string
+}
 
 int main() {
+    cout << "Sum: " << returnSum(9, 8) << endl;
+    cout << "Double Sum: " << returnDouble(1.2, 3.5) << endl;
+    cout << "Concatenated String: " << returnString("10", "36") << endl;
 
-   cout <<  ReturnSum(9 , 8) << endl;
-   cout <<  ReturnDouble( 1.2 , 3.5) << endl;
-   cout <<  Returnstring("10","36") << endl;
-
-   return 0 ;
+    return 0;
 }
