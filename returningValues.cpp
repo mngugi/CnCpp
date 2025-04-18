@@ -6,6 +6,14 @@ int add(int a, int b) {
     return a + b;
 }
 
+// Function that adds 5 to the number
+
+int AddFive( int number){
+    return number + 5
+
+
+}
+
 // Function that returns a string
 string greet(string name) {
     return "Hello, " + name + "!";
@@ -19,6 +27,10 @@ int main() {
     // Example of returning a string
     string message = greet("Sigma");
     cout << message << endl;
+
+    cout << "--------------------" << endl;
+
+    AddFive();
 
     return 0;
 }
