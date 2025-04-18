@@ -8,7 +8,7 @@
  */
 
  #include <iostream>
- #include <iostream>
+ #include <string>
  using namespace std;
 
  int ReturnSum( int i, int j){
