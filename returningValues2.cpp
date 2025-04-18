@@ -25,4 +25,12 @@
 
  }
 
- 
+
+int main() {
+
+    ReturnSum();
+    ReturnDouble();
+    Returnstring();
+
+    return 0 ;
+}
