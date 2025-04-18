@@ -12,7 +12,6 @@ int AddFive( int number){
 // return the integer added to 100    
     return number + 5 ;
 
-
 }
 
 // Function that returns a string
