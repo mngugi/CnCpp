@@ -13,9 +13,14 @@ using namespace std;
 // 
 void  GetSlope( double x1, double x2, double y1, double y2) {
     doubleSlope = (y2 - y1) / (x2 - x1) ;
-    cout << "the Slope is " << endl;
+    cout << "the Slope is " << endl; // print the slope.
 
 
+}
+
+int main() {
+
+    
 }
 
 
