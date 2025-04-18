@@ -49,7 +49,9 @@ void foods(){
  int main(){
     func1();
     func2();
+    
     cout << "---------------" << endl;
+
     foods();
     cout << "---------------" << endl;
     call_Constant();
