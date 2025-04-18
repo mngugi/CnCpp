@@ -28,9 +28,9 @@
 
 int main() {
 
-    ReturnSum();
-    ReturnDouble();
-    Returnstring();
+   cout <<  ReturnSum(9 , 8) << endl;
+   cout <<  ReturnDouble( 1.2 , 3.5) << endl;
+   cout <<  Returnstring("10","36") << endl;
 
     return 0 ;
 }
