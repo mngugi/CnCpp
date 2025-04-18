@@ -36,7 +36,8 @@ int main() {
 
     // call the function to call get the slope.
     GetSlope(x1,x2,y1,y2);
-
+    
+    return 0 ; 
  
 }
 
