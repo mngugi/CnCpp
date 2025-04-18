@@ -9,6 +9,7 @@ int add(int a, int b) {
 // Function that adds 5 to the number
 
 int AddFive( int number){
+// return the integer added to 100    
     return number + 5 ;
 
 
