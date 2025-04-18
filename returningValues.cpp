@@ -32,5 +32,10 @@ int main() {
 
     AddFive(100);
 
+    cout << "------------------" << endl; 
+
+    int newNumber = AddFive(100);
+    cout << newNumber << endl; 
+
     return 0;
 }
