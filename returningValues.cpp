@@ -9,7 +9,7 @@ int add(int a, int b) {
 // Function that adds 5 to the number
 
 int AddFive( int number){
-    return number + 5
+    return number + 5 ;
 
 
 }
@@ -30,7 +30,7 @@ int main() {
 
     cout << "--------------------" << endl;
 
-    AddFive();
+    AddFive(100);
 
     return 0;
 }
