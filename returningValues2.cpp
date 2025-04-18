@@ -28,9 +28,9 @@ string returnString(string i, string j) {
 }
 
 int main() {
-    cout << "Sum: " << returnSum(9, 8) << endl;
-    cout << "Double Sum: " << returnDouble(1.2, 3.5) << endl;
-    cout << "Concatenated String: " << returnString("10", "36") << endl;
+    cout << "Sum: " << returnSum(9, 8) << endl; // calls returnSum
+    cout << "Double Sum: " << returnDouble(1.2, 3.5) << endl;//calls returnDouble
+    cout << "Concatenated String: " << returnString("10", "36") << endl; // returnString
 
     return 0;
 }
