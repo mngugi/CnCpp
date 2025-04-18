@@ -10,6 +10,18 @@
  #include <iostream>
  using namespace std;
 
- int Returnsum( int i, int j){
+ int ReturnSum( int i, int j){
     return(i+j);
+
+ }
+
+ int ReturnDouble(double i , double j){
+    return(i+j);
+
+ }
+
+ int Returnstring(string i, string j){
+    return(i+j);
+
+
  }
