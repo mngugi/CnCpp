@@ -49,9 +49,9 @@
 
        }   
     
-    cout << "The actor is:" << first_name << "" << last_name << endl;
-    cout << "Age:" << age << endl;
-    cout << "Birth date:" << birth_date << endl;"
+       cout << "The actor is:" << first_name << "" << last_name << endl;
+       cout << "Age:" << age << endl;
+       cout << "Birth date:" << birth_date << endl;
 
         
  };
