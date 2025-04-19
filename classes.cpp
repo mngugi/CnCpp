@@ -52,8 +52,11 @@
        cout << "The actor is:" << first_name << "" << last_name << endl;
        cout << "Age:" << age << endl;
        cout << "Birth date:" << birth_date << endl;
-       cout << "Total movies: " <<  total_movies +
-       "Won " + oscar_wins + "nominations" + oscar_naminations  << endl;
+       cout << "Total movies: " << total_movies 
+            << " | Won " << oscar_wins 
+            << " Oscars | Nominations: " << oscar_nominations << endl;
+
+
 
     }    
 
