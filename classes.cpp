@@ -24,8 +24,8 @@
  using namespace std;
     // class definition 
 
-    class Actor
-    {
+    class Actor {
+    
    
     public:
          string first_name;
@@ -47,11 +47,13 @@
         oscar_naminations = 10;
 
 
-    }   
+       }   
     
-    
+    cout << "The actor is:" << first_name << "" << last_name << endl;
+    cout << "Age:" << age << endl;
+    cout << "Birth date:" << birth_date << endl;"
 
         
-    };
+ };
     
      
