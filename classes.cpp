@@ -38,7 +38,7 @@
 
     Actor () {
 
-        first_name = "Denzel"
+        first_name = "Denzel";
         last_name = "Washington";
         birth_date = "December 28, 1954";
         age = 68;
@@ -47,13 +47,15 @@
         oscar_naminations = 10;
 
 
-       }   
+       
     
        cout << "The actor is:" << first_name << "" << last_name << endl;
        cout << "Age:" << age << endl;
        cout << "Birth date:" << birth_date << endl;
 
-        
+    }    
+
+    return 0 ;
  };
     
      
