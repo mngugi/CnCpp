@@ -19,58 +19,38 @@
  */
 
  #include <iostream>
- #include<string>
+#include <string>
+using namespace std;
 
- using namespace std;
-    // class definition 
+class Actor {
+public:
+    string first_name;
+    string last_name;
+    string birth_date;
+    int age;
+    int total_movies;
+    int oscar_wins;
+    int oscar_nominations;
 
-    class Actor {
-    
-   
-    public:
-         string first_name;
-         string last_name;
-         string birth_date;
-         int age;
-         int total_movies;
-         int oscar_wins;
-         int oscar_naminations;
-
-    Actor () {
-
+    Actor() {
         first_name = "Denzel";
         last_name = "Washington";
         birth_date = "December 28, 1954";
         age = 68;
-        total_movies= 50;
+        total_movies = 50;
         oscar_wins = 2;
-        oscar_naminations = 10;
+        oscar_nominations = 10;
 
-
-       
-    
-       cout << "The actor is:" << first_name << "" << last_name << endl;
-       cout << "Age:" << age << endl;
-       cout << "Birth date:" << birth_date << endl;
-       cout << "Total movies: " << total_movies 
-            << " | Won " << oscar_wins 
-            << " Oscars | Nominations: " << oscar_nominations << endl;
-
-
-
-    }    
-
-
-
-
+        cout << "The actor is: " << first_name << " " << last_name << endl;
+        cout << "Age: " << age << endl;
+        cout << "Birth date: " << birth_date << endl;
+        cout << "Total movies: " << total_movies
+             << " | Won " << oscar_wins
+             << " Oscars | Nominations: " << oscar_nominations << endl;
+    }
 };
 
-int main(){
-
+int main() {
     Actor actor1;
-    return 0; 
+    return 0;
 }
-
-
-    
-     
