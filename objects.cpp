@@ -24,7 +24,12 @@
 */
 
  public:
-    
+    string name;
+    int studentID;
+    string major;
+    double GPA;
+    int age;
+    double yearOfGraduation;
 
 };    
 
