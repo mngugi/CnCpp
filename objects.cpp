@@ -51,7 +51,7 @@
 };    
 
 int main() {
-    Student();
+    Bruno();
 
     return 0;
 }
