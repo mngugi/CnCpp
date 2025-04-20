@@ -15,5 +15,13 @@
     int health;
     int score;
     int level;
+
+    Player() {
+
+        health = 100;
+        score = 0 ;
+        level = 1;
+    }
+
         
  };
