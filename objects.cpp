@@ -10,7 +10,7 @@
  * Make sure to end the closing curly brace with a semi-colon ;.
  */
 
- class  ClassName{
+ 
 // define an object called student. 
 // student information or attributes 
 /**
@@ -23,7 +23,12 @@
 * @Year of graduation
 */
 
- public:
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Student {
+public:
     string name;
     int studentID;
     string major;
@@ -31,30 +36,30 @@
     int age;
     double yearOfGraduation;
 
-    // constructor
+    // Constructor
+    Student(string n, int id, string m, double gpa, int a, double yGrad) {
+        name = n;
+        studentID = id;
+        major = m;
+        GPA = gpa;
+        age = a;
+        yearOfGraduation = yGrad;
+    }
 
-    Student Bruno(){
-    Bruno.name = "Bruno Fernamdez";
-    Bruno.studentID= 852369;
-    Bruno.major = "Data Science";
-    Bruno.GPA = 3.7;
-    Bruno.age = 35;
-    Bruno.yearOfGraduation = 2028;
-
-    cout << "Student Name: " << Bruno.name << endl;
-    cout << "student ID Number: " << Bruno.studentID << endl;
-    cout << "Major: " << Bruno.major << endl;
-    cout << "GPA: " << Bruno.GPA << endl;
-    cout << "Age: " << Bruno.age << endl;
-    cout << "Year of Graduation: " << Bruno.yearOfGraduation << endl;
-
- }
-
-};    
+    // Method to print student details
+    void printDetails() {
+        cout << "Student Name: " << name << endl;
+        cout << "Student ID Number: " << studentID << endl;
+        cout << "Major: " << major << endl;
+        cout << "GPA: " << GPA << endl;
+        cout << "Age: " << age << endl;
+        cout << "Year of Graduation: " << yearOfGraduation << endl;
+    }
+};
 
 int main() {
-    Bruno();
+    Student bruno("Bruno Fernandez", 852369, "Data Science", 3.7, 35, 2028);
+    bruno.printDetails();
 
     return 0;
 }
-
