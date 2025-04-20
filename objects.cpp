@@ -11,9 +11,20 @@
  */
 
  class  ClassName{
+// define an object called student. 
+// student information or attributes 
+/**
+ * * 
+* @Name
+* @Student ID number
+* @Major
+* @GPA
+* @Age
+* @Year of graduation
+*/
 
- 
- 
  public:
- 
+    
+
 };    
+
