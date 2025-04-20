@@ -33,7 +33,7 @@
 
     // constructor
 
-    Student Bruno;
+    Student Bruno(){
     Bruno.name = "Bruno Fernamdez";
     Bruno.studentID= 852369;
     Bruno.major = "Data Science";
@@ -47,6 +47,8 @@
     cout << "GPA: " << Bruno.GPA << endl;
     cout << "Age: " << Bruno.age << endl;
     cout << "Year of Graduation: " << Bruno.yearOfGraduation << endl;
+
+ }
 
 };    
 
