@@ -41,5 +41,12 @@
     Bruno.age = 35;
     Bruno.yearOfGraduation = 2028;
 
+    cout << "Student Name: " << Bruno.name << endl;
+    cout << "student ID Number: " << Bruno.studentID << endl;
+    cout << "Major: " << Bruno.major << endl;
+    cout << "GPA: " << Bruno.GPA << endl;
+    cout << "Age: " << Bruno.age << endl;
+    cout << "Year of Graduation: " << Bruno.yearOfGraduation << endl;
+
 };    
 
