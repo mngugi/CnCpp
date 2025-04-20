@@ -9,3 +9,11 @@
  * 5. All attributes go within curly braces {} after the class name declaration.
  * Make sure to end the closing curly brace with a semi-colon ;.
  */
+
+ class  ClassName{
+
+ 
+ 
+ public:
+ 
+};    
