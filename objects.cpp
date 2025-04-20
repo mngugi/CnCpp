@@ -31,5 +31,15 @@
     int age;
     double yearOfGraduation;
 
+    // constructor
+
+    Student Bruno;
+    Bruno.name = "Bruno Fernamdez";
+    Bruno.studentID= 852369;
+    Bruno.major = "Data Science";
+    Bruno.GPA = 3.7;
+    Bruno.age = 35;
+    Bruno.yearOfGraduation = 2028;
+
 };    
 
