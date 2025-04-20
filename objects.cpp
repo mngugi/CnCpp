@@ -14,7 +14,7 @@
 // define an object called student. 
 // student information or attributes 
 /**
- * * 
+* 
 * @Name
 * @Student ID number
 * @Major
@@ -49,4 +49,10 @@
     cout << "Year of Graduation: " << Bruno.yearOfGraduation << endl;
 
 };    
+
+int main() {
+    Student();
+
+    return 0;
+}
 
