@@ -7,7 +7,6 @@
 
  #include <iostream>
  #include <string>
-
  using namespace std;
 
  class Player {
@@ -22,6 +21,5 @@
         score = 0 ;
         level = 1;
     }
-
         
  };
