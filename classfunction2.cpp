@@ -26,3 +26,16 @@
         vector < string> garnishes;
         vector < string> condiments;            
  }
+
+ /**
+  * The class should have a constructor that initializes all of the vectors to
+  * empty. The class should also have a function that allows you to add an item
+  * to any of the vectors. The function should take two parameters: the name of
+  * the vector and the name of the item to be added. The function should return
+  * true if the item was added successfully and false if it was not.
+  * Next, add a class function to add a drink to the Meal object. Use the
+  * push_back function to add an element to the vector. So 
+  * drinks.push_back(drink) adds the drink drink to the vector drinks. Then
+  * add a class function PrintDrinks to print out all of the elements inside the
+  * drinks vector. Class functions are public
+  */
