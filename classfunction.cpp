@@ -14,3 +14,51 @@
  #include <iostream>
  #include <string>
  using namespace std;
+
+    class Player {
+        public:
+        int health;
+        int score;
+        int level;
+    
+        Player() {
+            health = 100;
+            score = 0;
+            level = 1;
+        }
+    
+        void takeDamage(int damage) {
+            health -= damage;
+            if (health < 0) health = 0;
+        }
+    
+        void increaseScore(int points) {
+            score += points;
+        }
+    
+        void levelUp() {
+            level++;
+        }
+
+        void printPlayer() {
+            if(health <= 0){
+                cout << "Player is dead." << endl;
+            } else {
+                cout << "Player Status: " << endl;
+                cout << "Health: " << health << endl;
+                cout << "Score: " << score << endl;
+                cout << "Level: " << level << endl;
+            }
+
+        }
+
+        private: //private access modifiers
+int health;
+int score;
+int level;
+};
+//add class definitions above this line
+
+Player.mario;
+mario.PrintPlayer();
+
