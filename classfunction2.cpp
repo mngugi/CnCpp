@@ -1,46 +1,22 @@
 #include <iostream>
- #include <string>
- using namespace std;
+#include <string>
+#include <vector> // Include vector library
+using namespace std;
 
- /**
-  * Changes to objects should happen exclusively through class functions. This
-  * makes your code easier to organize and easier for others to understand.
-  * Imagine you are going to create a class that keeps track of a meal. In this 
-  * case, a meal can be thought of as all of the drinks, appetizers, courses, and
-  * desserts served. Each one of these categories will become a class variable
-  * (attribute). Assign each attribute a vector of strings. Remember, class
-  * variables/attribute are private.
-  */
+/**
+ * Changes to objects should happen exclusively through class functions. This
+ * makes your code easier to organize and easier for others to understand.
+ * Imagine you are going to create a class that keeps track of a meal. In this 
+ * case, a meal can be thought of as all of the drinks, appetizers, courses, and
+ * desserts served. Each one of these categories will become a class variable
+ * (attribute). Assign each attribute a vector of strings. Remember, class
+ * variables/attribute are private.
+ */
 
- class Meal() {
-    private:
-        vector < string> drinks;
-        vector < string> appetizers;
-        vector < string> mainCourses;
-        vector < string> desserts;
-        vector < string> sides;
-        vector < string> salads;
-        vector < string> soups;
-        vector < string> breads;
-        vector < string> sauces;
-        vector < string> garnishes;
-        vector < string> condiments;            
- }
+// Remove the incorrect class declaration
+// class Meal() { ... }
 
- /**
-  * The class should have a constructor that initializes all of the vectors to
-  * empty. The class should also have a function that allows you to add an item
-  * to any of the vectors. The function should take two parameters: the name of
-  * the vector and the name of the item to be added. The function should return
-  * true if the item was added successfully and false if it was not.
-  * Next, add a class function to add a drink to the Meal object. Use the
-  * push_back function to add an element to the vector. So 
-  * drinks.push_back(drink) adds the drink drink to the vector drinks. Then
-  * add a class function PrintDrinks to print out all of the elements inside the
-  * drinks vector. Class functions are public
-  */
-
-  class Meal {
+class Meal {
     public:
         void addDrink(string drink) {
             drinks.push_back(drink);
@@ -153,38 +129,36 @@
         vector<string> sauces;
         vector<string> garnishes;
         vector<string> condiments;    
-  };
-    /**
-     * In the main function, create a Meal object and add some items to it. Then
-     * print out all of the items in each vector.
-     */
-    int main() {
-        Meal meal;
-        meal.addDrink("Water");
-        meal.addDrink("Soda");
-        meal.addAppetizer("Salad");
-        meal.addMainCourse("Steak");
-        meal.addDessert("Ice Cream");
-        meal.addSide("Fries");
-        meal.addSalad("Caesar Salad");
-        meal.addSoup("Tomato Soup");
-        meal.addBread("Garlic Bread");
-        meal.addSauce("BBQ Sauce");
-        meal.addGarnish("Parsley");
-        meal.addCondiment("Ketchup");
+};
 
-        // Print all items in the Meal object
-        meal.printDrinks();
-        meal.printAppetizers();
-        meal.printMainCourses();
-        meal.printDesserts();
-        meal.printSides();
-        meal.printSalads();
-        meal.printSoups();
-        meal.printBreads();
-        meal.printSauces();
-        meal.printGarnishes();
-        meal.printCondiments();
+// Main function
+int main() {
+    Meal meal;
+    meal.addDrink("Water");
+    meal.addDrink("Soda");
+    meal.addAppetizer("Salad");
+    meal.addMainCourse("Steak");
+    meal.addDessert("Ice Cream");
+    meal.addSide("Fries");
+    meal.addSalad("Caesar Salad");
+    meal.addSoup("Tomato Soup");
+    meal.addBread("Garlic Bread");
+    meal.addSauce("BBQ Sauce");
+    meal.addGarnish("Parsley");
+    meal.addCondiment("Ketchup");
 
-        return 0;
+    // Print all items in the Meal object
+    meal.printDrinks();
+    meal.printAppetizers();
+    meal.printMainCourses();
+    meal.printDesserts();
+    meal.printSides();
+    meal.printSalads();
+    meal.printSoups();
+    meal.printBreads();
+    meal.printSauces();
+    meal.printGarnishes();
+    meal.printCondiments();
 
+    return 0;
+}
