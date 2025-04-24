@@ -9,7 +9,7 @@ int main() {
 
     for (int i = 0; i < 5; ++i){
         numbers[i] = std::rand() % 100;
-        cout << "Numbers" << i << ";" << numbers[i] << endl;
+        cout << "Numbers " << i << ";" << numbers[i] << endl;
 
     }
 
