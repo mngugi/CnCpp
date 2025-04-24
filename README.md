@@ -1,3 +1,79 @@
+# CnCpp
+
+**CnCpp** is a curated collection of C and C++ programs covering core programming concepts, data structures, algorithms, and system-level development. It's ideal for learners, educators, and anyone looking to strengthen their understanding of C/C++.
+
+---
+
+## 📁 Repository Structure
+
+- `basics/` – Syntax, loops, conditionals, functions, etc.
+- `data_structures/` – Arrays, linked lists, stacks, queues, trees, graphs.
+- `algorithms/` – Searching, sorting, recursion, greedy, etc.
+- `system_programming/` – File I/O, memory management, system calls.
+- `projects/` – Small applications combining multiple concepts.
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mngugi/CnCpp.git
+   cd CnCpp
+   ```
+
+2. Navigate to a directory:
+
+   ```bash
+   cd basics
+   ```
+
+3. Compile and run a program:
+
+   For C:
+   ```bash
+   gcc example.c -o example
+   ./example
+   ```
+
+   For C++:
+   ```bash
+   g++ example.cpp -o example
+   ./example
+   ```
+
+---
+
+## ⚙️ Prerequisites
+
+- GCC or G++ compiler
+- Make (optional)
+- Linux/macOS/WSL environment (or compatible terminal)
+
+---
+
+## 🎯 Learning Objectives
+
+- Learn C/C++ syntax and best practices
+- Implement classic data structures from scratch
+- Practice solving problems with algorithms
+- Understand system-level programming in C
+- Build mini-projects using real-world logic
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change or add.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+
 # 📌 C++ Keywords Table
 
 | alignas   | decltype       | namespace       | struct        |
