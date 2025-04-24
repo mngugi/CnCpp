@@ -20,6 +20,11 @@ double doubles[3] = {1.1, 2.2, 3.3};
 int main(){
 
     cout << bools[0] << endl; // accessing the first element
+
+    cout << bools[1] << endl; // accessing the second element
+    cout << bools[2] << endl; // accessing the third element
+    
+    cout << doubles[0] << endl; // accessing the first element
     
 return 0;
 }
