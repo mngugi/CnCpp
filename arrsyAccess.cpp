@@ -1,4 +1,10 @@
 
+/**
+ * @file arrsyAccess.cpp 
+ * @brief This program demonstrates how to access elements in an array.
+ * @details
+ * 1. The program defines an array of strings called names with 5 elements. 
+ */
 #include <iostream>
 using namespace std;
 
