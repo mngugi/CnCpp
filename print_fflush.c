@@ -5,7 +5,7 @@
 
 void handle_sigterm(int sig) {
 
-    printf("SIGERM".\n);
+    printf("SIGERM.\n");
     fflush(stdout);
 
 }
