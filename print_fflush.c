@@ -2,7 +2,6 @@
 #include <signal.h>
 #include <unistd.h>
 
-
 void handle_sigterm(int sig) {
 
     printf("SIGERM.\n");
@@ -13,7 +12,7 @@ void handle_sigterm(int sig) {
 int main() {
 
     signal(SIGTERM, handle_sigterm);
-    printf("Am Process %d. Kill me uick!\n", getpid());
+    printf(" Am Process %d. Kill me Quick!\n", getpid());
 
     while(1) {
         pause();
