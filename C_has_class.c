@@ -8,5 +8,8 @@ typedef struct Counter{
     } Counter;
 
  Counter* Counter_new(int initial){
+     Counter *c = malloc(sizeof(Counter));
+     if (c) c->value = initial;
+     return c;
 
  }
