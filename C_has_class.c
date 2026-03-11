@@ -13,3 +13,10 @@ typedef struct Counter{
      return c;
 
  }
+
+ void Counter_add(Counter *c, int amount){
+        if (c) c->value += amount;
+
+ }
+
+
